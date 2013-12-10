@@ -4,12 +4,7 @@ applications, it is necessary to request batches of assets to be fetched
 programmatically.  Often times this is done before caching them in memory, 
 localStorage, or a webDB to be consumed syncronously by your application.
 
-WEBSERVER
-  ^
-  |
-  |
-  v
-BROWSER    ->    CACHE?
+WEBSERVER <------> BROWSER -> CACHE?
 
 #Why an asset loader?
 It is absolutely true that each asset could simply be requested individually
