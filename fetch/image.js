@@ -1,5 +1,7 @@
+var q = require('q');
+
 module.exports = function (asset) {
-  var imagePromise = Q.defer()
+  var imagePromise = q.defer()
     , image = new Image();
 
   image.onload = function (params) {
