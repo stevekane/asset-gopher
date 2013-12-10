@@ -1,6 +1,6 @@
-var q = require('q');
-var fetchJSON = function () {};
-var fetchImage = function () {};
+var q = require('q')
+  , fetchJSON = require('./fetch/json')
+  , fetchImage = require('./fetch/image')
 var fetchAudio = function () {};
 
 var Loader = function () {
@@ -16,11 +16,6 @@ Loader.Asset = function (url, typeName, name) {
   this.type = typeName;
   this.name = name;
 };
-
-Loader.LoadedAsset = function () {
-  
-};
-
 
 Loader.prototype.addType = function (typeName, fetchFn) {
   this._handlers[typeName] = fetchFn; 
