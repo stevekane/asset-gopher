@@ -1,6 +1,6 @@
 {
   "name": "asset-gopher",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Promise-based asset loader designed for fetching resources from remote machines in a browser",
   "main": "asset-gopher.js",
   "scripts": {
