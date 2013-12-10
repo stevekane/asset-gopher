@@ -2,13 +2,13 @@
   "name": "asset-loader",
   "version": "0.0.1",
   "description": "Promise-based asset loader designed for fetching resources from remote machines in a browser",
-  "main": "asset-loader.js",
+  "main": "asset-gopher.js",
   "scripts": {
     "test": "node test.js"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/stevekane/asset-loader.git"
+    "url": "https://github.com/stevekane/asset-gopher.git"
   },
   "keywords": [
     "promises",
